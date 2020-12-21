@@ -1,6 +1,6 @@
 'use strict';
 
-const axios = request('axios');
+const axios = require('axios');
 
 async function logSample() {
   console.log('worker');
